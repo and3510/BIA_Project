@@ -8,7 +8,7 @@
 
 </div>
 
-Chatbot para a faculdade que auxilia alunos em obter informações rápidas e precisas
+Chatbot universitário que ajuda os alunos a acessarem informações de forma rápida e precisa
 
 ## Requisitos:
 
