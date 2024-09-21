@@ -27,6 +27,7 @@ Chatbot universitário que ajuda os alunos a acessarem informações de forma r�
 - **Typebot** -> Plataforma para construção
 - **NocoDb** -> Plataforma para registro e armazenamento
 - **Whatsapp** -> Plataforma para aplicação
+- **Chatgpt** -> Gerador de conversa
 
 ## Fluxo do Software
 
