@@ -28,6 +28,14 @@ Chatbot universitário que ajuda os alunos a acessarem informações de forma r�
 - **NocoDb** -> Plataforma para registro e armazenamento
 - **Whatsapp** -> Plataforma para aplicação
 
+## Fluxo do Software
+
+<div align="center">
+  
+<img src="./ilustration.png" alt="Descrição da Imagem" width="500">
+
+</div>
+
 ## Dificuldades
 
 
