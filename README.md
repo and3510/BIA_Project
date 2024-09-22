@@ -15,7 +15,7 @@ Chatbot universitário que ajuda os alunos a acessarem informações de forma r�
  
 - Ser **aplicado no Whatsapp** - Não Funcional
 - Ter uma função para **mandar Calendario Acadêmico** - Funcional
-- Ter uma função para **mostrar horarios das provas e eventos** - Funcional
+- Ter uma função para **mostrar horarios das provas e quizzes** - Funcional
 - Ter uma função para **o usuario reportar problemas da faculdade,chatbot ou curso** - Funcional
 - Ter uma função para **pesquisar livros que estão na biblioteca** - Funcional
 - Ter uma função para **mostrar as notas do usuario** - Funcional
