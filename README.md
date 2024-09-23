@@ -38,6 +38,14 @@ Chatbot universitário que ajuda os alunos a acessarem informações de forma r�
 
 </div>
 
+## Tabelas do Banco de Dados
+
+
+<div align="center">
+  
+<img src="./images/tables.png" alt="Descrição da Imagem" width="225">
+
+</div>
 
 
 ## Dificuldades
@@ -45,7 +53,13 @@ Chatbot universitário que ajuda os alunos a acessarem informações de forma r�
 
 ## Resultados
 
+<div align="center">
+
+Fluxo de criação do bot na plataforma Typebot
+
 ![Descrição do GIF](./images/typebot.gif)
+
+</div>
 
 ## Conclusão
 
