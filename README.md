@@ -58,8 +58,11 @@ O cursos criados foram 3 (Engenharia Software, Direito, Administração) com per
 
 ## Feedback para o chatbot
 
+<div align="center">
+
 <img src="./images/feedback.png" alt="Descrição da Imagem" width="225">
 
+</div>
 
 ## Dificuldades
 
