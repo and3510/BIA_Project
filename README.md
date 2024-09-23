@@ -34,15 +34,18 @@ Chatbot universitário que ajuda os alunos a acessarem informações de forma r�
 
 <div align="center">
   
-<img src="./ilustration.png" alt="Descrição da Imagem" width="500">
+<img src="./images/ilustration.png" alt="Descrição da Imagem" width="500">
 
 </div>
+
+
 
 ## Dificuldades
 
 
 ## Resultados
 
+![Descrição do GIF](./images/typebot.gif)
 
 ## Conclusão
 
