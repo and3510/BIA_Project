@@ -49,6 +49,17 @@ Chatbot universitário que ajuda os alunos a acessarem informações de forma r�
 
 </div>
 
+A criação de personagens e dados fictícios foi realizada para testes com o chatbot e o banco de dados.
+
+Seis salas foram criadas, cada uma abrigando um personagem específico.
+
+O cursos criados foram 3 (Engenharia Software, Direito, Administração) com periodos diferentes e turnos.
+
+
+## Feedback para o chatbot
+
+<img src="./images/feedback.png" alt="Descrição da Imagem" width="225">
+
 
 ## Dificuldades
 
