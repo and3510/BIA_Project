@@ -22,12 +22,12 @@
 
 ## Integrantes
 
-- Anderson do Vale - and3510 
-- Beatriz Barreto - whosbea 
-- Cristovam Paulo - cristovam10000
-- Guilherme de Assis - onizuka465
-- Gustavo do Vale - gustavodovale
-- Lucas Cesar - lucascesar1107
+- Anderson do Vale - [and3510](https://github.com/and3510) 
+- Beatriz Barreto - [whosbea](https://github.com/whosbea)
+- Cristovam Paulo - [cristovam10000](https://github.com/cristovam10000)
+- Guilherme de Assis - [onizuka465](https://github.com/onizuka465)
+- Gustavo do Vale - [gustavodovale](https://github.com/gustavodovale)
+- Lucas Cesar - [lucascesar1107](https://github.com/lucascesar1107)
 
 ## Descrição
 
