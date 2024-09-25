@@ -95,7 +95,7 @@ Realizar pesquisas acadêmicas com os alunos é desafiador devido à baixa parti
 
 <div align="center">
 
-<img src="./images/feedback.png" alt="Descrição da Imagem" width="300">
+<img src="./images/feedback.png" alt="Descrição da Imagem" width="550" height="300">
 
 **Aviso de feedback, após os usuarios encerrarem a conversa com o bot**
 
