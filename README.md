@@ -7,6 +7,9 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37.svg?style=for-the-badge&logo=Postman&logoColor=white)
 
+
+</div>
+
 ## Sumário
 
 * [Requisitos](#requisitos)
@@ -18,7 +21,6 @@
 
 
 
-</div>
 
 Chatbot universitário que ajuda os alunos a acessarem informações de forma rápida e precisa
 
