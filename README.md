@@ -7,6 +7,11 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37.svg?style=for-the-badge&logo=Postman&logoColor=white)
 
+## Sumário
+
+
+
+
 </div>
 
 Chatbot universitário que ajuda os alunos a acessarem informações de forma rápida e precisa
@@ -62,6 +67,8 @@ Chatbot universitário que ajuda os alunos a acessarem informações de forma r�
 
 <img src="./images/feedback.png" alt="Descrição da Imagem" width="300">
 
+**Sistema de feedback, após os usuarios encerrarem a conversa com o bot**
+
 </div>
 
 ## Dificuldades
@@ -71,9 +78,10 @@ Chatbot universitário que ajuda os alunos a acessarem informações de forma r�
 
 <div align="center">
 
-Fluxo de criação do bot na plataforma Typebot
+
 
 ![Descrição do GIF](./images/typebot.gif)
+**Fluxo de criação do bot na plataforma Typebot**
 
 </div>
 
