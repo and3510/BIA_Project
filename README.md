@@ -11,6 +11,7 @@
 
 ## Sumário
 
+* [Integrantes](#integrantes)
 * [Descrição](#descrição)
 * [Requisitos](#requisitos)
 * [Tecnologias](#tecnologias)
@@ -19,7 +20,14 @@
 * [Resultados](#resultados)
 * [Conclusão](#conclusao)
 
+## Integrantes
 
+- Anderson do Vale - and3510 
+- Beatriz Barreto - whosbea 
+- Cristovam Paulo - cristovam10000
+- Guilherme de Assis - onizuka465
+- Gustavo do Vale - gustavodovale
+- Lucas Cesar - lucascesar1107
 
 ## Descrição
 
