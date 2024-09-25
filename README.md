@@ -82,7 +82,7 @@ Realizar pesquisas acadêmicas com os alunos é desafiador devido à baixa parti
 
 <div align="center">
   
-<img src="./images/tables.png" alt="Descrição da Imagem" width="225">
+<img src="./images/dbnoco.png" alt="Descrição da Imagem" width="650">
 
 </div>
 
