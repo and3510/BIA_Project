@@ -12,7 +12,7 @@
 
 ## Sumário
 
-* [Descrição](#descricao)
+* [Descrição](#descrição)
 * [Requisitos](#requisitos)
 * [Tecnologias](#tecnologias)
 * [Fluxo do Software](#fluxo-do-software)
