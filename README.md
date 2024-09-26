@@ -70,6 +70,8 @@ Chatbot universitário que ajuda os alunos a acessarem informações de forma r�
 
 Realizar pesquisas acadêmicas com os alunos é desafiador devido à baixa participação, causada por falta de tempo ou desinteresse no tema. A sobrecarga de atividades acadêmicas e extracurriculares dificulta o comprometimento dos estudantes, afetando a qualidade e quantidade das respostas.
 
+Tivemos problemas durante a execução dos testes do protótipo devido ao grande número de solicitações, o que causou algumas sobrecargas e paralisações nos testes.
+
 
 
 ## Resultados
