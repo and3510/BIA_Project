@@ -122,10 +122,10 @@ Tivemos problemas durante a execução dos testes do protótipo devido ao grande
 <div style="text-align: center; margin-top: 20px;">
     <table border="0" cellspacing="0" cellpadding="0" style="margin: auto;">
         <tr>
-            <td style="border: 0; width: 600px; vertical-align: top; padding-top: 20px;">
-                <img src="./images/menu_main.jpeg" alt="Descrição da Imagem" width="600">
+            <td style="border: 0; width: 800px; vertical-align: top; padding-top: 20px;">
+                <img src="./images/menu_main.jpeg" alt="Descrição da Imagem" width="800">
             </td>
-            <td style="vertical-align: top;">
+            <td style="vertical-align: top; padding-top: 20px;">
                 A implementação de um menu interativo é essencial para melhorar a experiência do usuário em aplicativos e plataformas. Neste contexto, a API Evolution fornece uma maneira eficiente de criar menus dinâmicos e personalizáveis. Neste artigo, vamos explorar como desenvolver um menu com 8 botões utilizando a sendList da API Evolution.
             </td>
         </tr>
