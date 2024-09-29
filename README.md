@@ -117,6 +117,23 @@ Tivemos problemas durante a execução dos testes do protótipo devido ao grande
 - Seis salas foram criadas, cada uma abrigando um personagem específico.
 - O cursos criados foram 3 (Engenharia Software, Direito, Administração) com periodos diferentes e turnos.
 
+### Menu Principal de Botões
+
+
+<table border="0" cellspacing="0" cellpadding="0" >
+  <tr>
+    <td style="border: 0";>
+        <img src="./images/menu_main.jpeg" alt="Descrição da Imagem" width="300">
+    </td>
+    <td>
+      sad
+    </td>
+  </tr>
+</table>
+
+
+
+
 
 ### Feedback para o chatbot
 
