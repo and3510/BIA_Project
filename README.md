@@ -53,8 +53,11 @@ Chatbot universitário que ajuda os alunos a acessarem informações de forma r�
 
 - **Typebot** -> Plataforma para construção
 - **NocoDb** -> Plataforma para registro e armazenamento
+- **Api Evolution** -> Plataforma para solução de mensagens via Whatsapp
 - **Whatsapp** -> Plataforma para aplicação
-- **Chatgpt** -> Gerador de conversa
+- **Chatgpt** -> Gerador de conversas
+- **Docker** -> Vitualização das Images das Plataformas Baixadas
+- **Postman** -> Plataforma para realização de testes de envio 
 
 
 ## Fluxo do Software
@@ -77,6 +80,8 @@ Tivemos problemas durante a execução dos testes do protótipo devido ao grande
 
 ## Resultados
 
+### Fluxo do Typebot
+
 <div align="center">
 
 
@@ -84,6 +89,16 @@ Tivemos problemas durante a execução dos testes do protótipo devido ao grande
 ![Descrição do GIF](./images/typebot.gif)
 
 **Fluxo de criação do bot na plataforma Typebot**
+
+</div>
+
+### Plataforma de Gerenciamento
+
+<div align="center">
+
+<img src="./images/plataform.png" alt="Descrição da Imagem" width="650">
+
+**Plataforma para gerenciar as funcionalidades do bot, executado em contêiner**
 
 </div>
 
@@ -95,6 +110,8 @@ Tivemos problemas durante a execução dos testes do protótipo devido ao grande
 <img src="./images/dbnoco.png" alt="Descrição da Imagem" width="650">
 
 </div>
+
+<br>
 
 - A criação de personagens e dados fictícios foi realizada para testes com o chatbot e o banco de dados.
 - Seis salas foram criadas, cada uma abrigando um personagem específico.
