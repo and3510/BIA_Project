@@ -6,6 +6,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 
@@ -76,7 +77,7 @@ Realizar pesquisas acadêmicas com os alunos é desafiador devido à baixa parti
 
 Tivemos problemas durante a execução dos testes do protótipo devido ao grande número de solicitações, o que causou algumas sobrecargas e paralisações nos testes.
 
-Além disso, gastamos um tempo tentando enviar uma requisição HTTP da plataforma **Typebot** para a **API Evolution**. Felizmente, conseguimos ter sucesso após expor o serviço local à internet usando o comando `ngrok` no Linux.
+Além disso, gastamos um tempo tentando enviar uma requisição HTTP da plataforma **Typebot** para a **API Evolution**.Felizmente, conseguimos ter sucesso após expor o serviço local à internet usando o comando `ngrok` no Linux.
 
 
 
