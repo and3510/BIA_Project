@@ -76,6 +76,8 @@ Realizar pesquisas acadêmicas com os alunos é desafiador devido à baixa parti
 
 Tivemos problemas durante a execução dos testes do protótipo devido ao grande número de solicitações, o que causou algumas sobrecargas e paralisações nos testes.
 
+Além disso, gastamos um tempo tentando enviar uma requisição HTTP da plataforma **Typebot** para a **API Evolution**. Felizmente, conseguimos ter sucesso após expor o serviço local à internet usando o comando `ngrok` no Linux.
+
 
 
 ## Resultados
