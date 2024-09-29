@@ -120,18 +120,18 @@ Tivemos problemas durante a execução dos testes do protótipo devido ao grande
 ### Menu Principal de Botões
 
 
-<table border="0" cellspacing="0" cellpadding="0" >
-  <tr>
-    <td style="border: 0";>
-        <img src="./images/menu_main.jpeg" alt="Descrição da Imagem" width="300">
-    </td>
-    <td>
-      sad
-    </td>
-  </tr>
-</table>
-
-
+<div style="text-align: center;">
+    <table border="0" cellspacing="0" cellpadding="0" style="margin: auto;">
+        <tr>
+            <td style="border: 0; vertical-align: top; text-align: center;">
+                <img src="./images/menu_main.jpeg" alt="Descrição da Imagem" width="300">
+            </td>
+            <td style="vertical-align: top; text-align: center;">
+                sad
+            </td>
+        </tr>
+    </table>
+</div>
 
 
 
