@@ -55,13 +55,13 @@ Chatbot universitário que ajuda os alunos a acessarem informações de forma r�
 
 ## Tecnologias
 
-- Typebot: Plataforma para criar chatbots interativos, sem programação complexa.
-- NocoDB: Banco de dados visual que transforma dados em planilhas.
-- Evolution API: Automação para envio de mensagens via WhatsApp.
-- WhatsApp: Plataforma para troca de mensagens e comunicação instantânea.
-- ChatGPT: IA para geração de conversas em linguagem natural.
-- Docker: Virtualização de aplicações em contêineres para qualquer ambiente.
-- Postman: Ferramenta para testar, monitorar e documentar APIs.
+- **Typebot**: Plataforma para criar chatbots interativos, sem programação complexa.
+- **NocoDB**: Banco de dados visual que transforma dados em planilhas.
+- **Evolution API**: Automação para envio de mensagens via WhatsApp.
+- **WhatsApp**: Plataforma para troca de mensagens e comunicação instantânea.
+- **ChatGPT**: IA para geração de conversas em linguagem natural.
+- **Docker**: Virtualização de aplicações em contêineres para qualquer ambiente.
+- **Postman**: Ferramenta para testar, monitorar e documentar APIs.
 
 
 ## Fluxo do Software
