@@ -82,6 +82,8 @@ Tivemos problemas durante a execução dos testes do protótipo devido ao grande
 
 Além disso, gastamos um tempo tentando enviar uma requisição HTTP da plataforma **Typebot** para a **API Evolution**.Felizmente, conseguimos ter sucesso após expor o serviço local à internet usando o comando `ngrok` no Linux.
 
+Durante o projeto, fomos informados de que não poderíamos integrar o chatbot com o banco de dados da faculdade por questões de segurança. Isso reduziu as chances de o sistema ser adotado pela instituição, porém, poderíamos ajustar o projeto removendo as funcionalidades que dependiam de acesso ao banco de dados da faculdade, como **Ver Notas**, **Faltas** e **Biblioteca**.
+
 
 
 ## Resultados
