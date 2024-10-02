@@ -41,16 +41,16 @@ Chatbot universitário que ajuda os alunos a acessarem informações de forma r�
 
 ## Requisitos
  
-- Ser **aplicado no Whatsapp** - Não Funcional
-- Ter uma função para **mandar Calendario Acadêmico** - Funcional
-- Ter uma função para **mostrar horarios das provas** - Funcional
-- Ter uma função para **mostrar as faltas do aluno** - Funcional
-- Ter uma função para **o usuario reportar problemas da faculdade,chatbot ou curso** - Funcional
-- Ter uma função para **pesquisar livros que estão na biblioteca** - Funcional
-- Ter uma função para **mostrar as notas das provas e quizzes do aluno** - Funcional
-- Ter uma função para **mostrar os números de telefone e emails da instituição** - Funcional
-- Ter uma função para **começar um bate papo com uma IA, para tirar duvidas sobre as materias** - Funcional
-- Usar Banco para **armazenar e buscar informações** - Não Funcional
+- [x] Ser **aplicado no Whatsapp** - Não Funcional
+- [x] Ter uma função para **mandar Calendario Acadêmico** - Funcional
+- [x] Ter uma função para **mostrar horarios das provas** - Funcional
+- [x] Ter uma função para **mostrar as faltas do aluno** - Funcional
+- [x] Ter uma função para **o usuario reportar problemas da faculdade,chatbot ou curso** - Funcional
+- [ ] Ter uma função para **pesquisar livros que estão na biblioteca** - Funcional
+- [ ] Ter uma função para **mostrar as notas das provas e quizzes do aluno** - Funcional
+- [x] Ter uma função para **mostrar os números de telefone e emails da instituição** - Funcional
+- [ ] Ter uma função para **começar um bate papo com uma IA, para tirar duvidas sobre as materias** - Funcional
+- [x] Usar Banco para **armazenar e buscar informações** - Não Funcional
 
 
 ## Tecnologias
