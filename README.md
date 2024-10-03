@@ -199,7 +199,7 @@ Durante o projeto, fomos informados de que não poderíamos integrar o chatbot c
    Use o seguinte comando para acessar a pasta do projeto:
 
    ```bash
-   cd bia
+   cd BIA
    ```
 
 2. **Execute o stack com o Docker Compose:**
@@ -209,6 +209,7 @@ Durante o projeto, fomos informados de que não poderíamos integrar o chatbot c
    ```bash
    docker-compose up
    ```
+   Se não tiver docker, veja a [documentação](https://www.docker.com/) 
 
 3. **Acesse a API localmente:**
 
@@ -373,6 +374,12 @@ Depois disso, envie uma mensagem para o número registrado na API e veja a mági
 
 
 ## Conclusão
+
+O projeto BIA - Bot Inteligente Acadêmico é uma ferramenta inovadora que visa facilitar o acesso dos alunos às informações acadêmicas por meio de um chatbot no WhatsApp. Ele integra diversas tecnologias como Typebot, NocoDB e Evolution API, utilizando contêineres Docker para simplificar o ambiente de desenvolvimento. Através de funcionalidades como o envio do calendário acadêmico, horários de provas, notas e faltas, o bot melhora a comunicação entre a faculdade e os alunos.
+
+Apesar das dificuldades enfrentadas, como limitações no uso de bancos de dados institucionais e sobrecarga nos testes, a equipe conseguiu implementar soluções alternativas, expondo serviços locais à internet via Ngrok, garantindo assim a continuidade do projeto. O uso de plataformas como o Typebot e a Evolution API possibilitou a criação de menus dinâmicos e personalizáveis, proporcionando uma experiência de usuário aprimorada.
+
+A conclusão deste projeto destaca a importância da integração entre tecnologias e a criatividade da equipe para superar os desafios, com um protótipo funcional e pronto para uso acadêmico, mesmo que com algumas funcionalidades ainda em desenvolvimento ou ajustáveis conforme as necessidades da instituição.
 
 
 
