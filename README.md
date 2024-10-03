@@ -157,17 +157,31 @@ Durante o projeto, fomos informados de que não poderíamos integrar o chatbot c
 
 ### 1° Etapa (Criação de contas e configuração)
 
-Criar uma conta no **Typebot** e **Nocobd**.
+1. **Criar Conta no Typebot:**
 
+   - Acesse o site do Typebot e siga as instruções para criar uma conta. 
 
-O Typebot oferece suporte direto para NocoDB:
+2. **Criar Conta no NocoDB:**
 
-Token de Autenticação: Você precisará fornecer apenas o token da API do NocoDB.
-Table IDs: Quando solicitado pela integração, você pode especificar os Table IDs das tabelas que deseja acessar.
+   - Acesse o site do NocoDB e registre-se para criar sua conta.
 
-As tabelas estao no arquivo.zip `tables.zip`. É so baixar e dar upload para cada tabela no nocodb
+3. **Integração entre Typebot e NocoDB:**
 
-E use meu template.json para importar para o Typebot
+   O Typebot oferece suporte direto para o NocoDB, facilitando a integração. Para configurar, siga os passos abaixo:
+
+   - **Token de Autenticação:** 
+     - Você precisará fornecer o token da API do NocoDB para autenticar a conexão.
+
+   - **IDs das Tabelas:** 
+     - Quando solicitado pela integração, especifique os **Table IDs** das tabelas que deseja acessar.
+
+4. **Carregamento das Tabelas:**
+
+   - As tabelas estão disponíveis no arquivo `tables.zip`. Baixe o arquivo e faça o upload de cada tabela no NocoDB.
+
+5. **Importar o Template:**
+
+   - Utilize meu arquivo `template.json` para importar as configurações necessárias para o Typebot.
 
 
 <div align="center">
