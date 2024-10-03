@@ -1,0 +1,32 @@
+
+
+services:  
+  whatsapp_api:
+    image: atendai/evolution-api:latest
+    networks:
+      - traefik_public
+    volumes:
+      - evolution_instances:/evolution/instances
+      - evolution_store:/evolution/store
+    environment:
+      CONFIG_SESSION_PHONE_CLIENT: evolution_api
+      AUTHENTICATION_TYPE: apikey
+      AUTHENTICATION_API_KEY: 4D2883EC3249AD0271123319BB6E7ABD
+      SERVER_URL: https://localhost:8080
+    deploy:
+      mode: replicated
+      replicas: 1
+      resources:
+          limits:
+            cpus: '0.2'
+            memory: 100M
+    ports:
+      - 8080:8080
+    
+networks:
+  traefik_public:
+    external: false
+
+volumes:
+  evolution_instances:
+  evolution_store:

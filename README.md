@@ -24,6 +24,7 @@
 * [Fluxo do Software](#fluxo-do-software)
 * [Dificuldades](#dificuldades)
 * [Resultados](#resultados)
+* [Como_Usar](#como_usar)
 * [Conclusão](#conclusao)
 
 ## Integrantes
@@ -46,8 +47,8 @@ Chatbot universitário que ajuda os alunos a acessarem informações de forma r�
 - [x] Ter uma função para **mostrar horarios das provas** - Funcional
 - [x] Ter uma função para **mostrar as faltas do aluno** - Funcional
 - [x] Ter uma função para **o usuario reportar problemas da faculdade,chatbot ou curso** - Funcional
-- [ ] Ter uma função para **pesquisar livros que estão na biblioteca** - Funcional
-- [ ] Ter uma função para **mostrar as notas das provas e quizzes do aluno** - Funcional
+- [x] Ter uma função para **pesquisar livros que estão na biblioteca** - Funcional
+- [x] Ter uma função para **mostrar as notas das provas e quizzes do aluno** - Funcional
 - [x] Ter uma função para **mostrar os números de telefone e emails da instituição** - Funcional
 - [ ] Ter uma função para **começar um bate papo com uma IA, para tirar duvidas sobre as materias** - Funcional
 - [x] Usar Banco para **armazenar e buscar informações** - Não Funcional
@@ -150,6 +151,153 @@ Durante o projeto, fomos informados de que não poderíamos integrar o chatbot c
 **Aviso de feedback, após os usuarios encerrarem a conversa com o bot**
 
 </div>
+
+
+## Como_Usar
+
+### 1° Etapa (Criação de contas e configuração)
+
+Criar uma conta no **Typebot** e **Nocobd**.
+
+
+O Typebot oferece suporte direto para NocoDB:
+
+Token de Autenticação: Você precisará fornecer apenas o token da API do NocoDB.
+Table IDs: Quando solicitado pela integração, você pode especificar os Table IDs das tabelas que deseja acessar.
+
+As tabelas estao no arquivo.zip `tables.zip`. É so baixar e dar upload para cada tabela no nocodb
+
+E use meu template.json para importar para o Typebot
+
+![alt text](./images/image-5.png)
+
+
+### 2ª Etapa: Criando um Contêiner para Rodar a Evolution API
+
+1. **Navegue até o diretório do arquivo `docker-compose.yml`:**
+
+   Use o seguinte comando para acessar a pasta do projeto:
+
+   ```bash
+   cd bia
+   ```
+
+2. **Execute o stack com o Docker Compose:**
+
+   Para iniciar os serviços definidos no Docker Compose, utilize o comando:
+
+   ```bash
+   docker-compose up
+   ```
+
+3. **Acesse a API localmente:**
+
+   Após executar o comando acima, um contêiner chamado **evolution-whatsapp_api-1** será iniciado na porta 8080. Para verificar se a API está rodando corretamente, abra o navegador e acesse:
+
+   ```
+   https://localhost:8080
+   ```
+
+   No entanto, para que o Typebot possa fazer requisições HTTP, precisamos expor a porta 8080 para a internet.
+
+4. **Exponha a porta com Ngrok:**
+
+   Execute o seguinte comando para expor a porta 8080:
+
+   ```bash
+   ngrok http 8080
+   ```
+
+   Isso irá gerar uma URL pública que redireciona as requisições para sua API local. Caso nunca tenha usado o Ngrok, consulte a [documentação oficial](https://ngrok.com/docs/) para mais informações.
+
+   ![alt text](./images/image.png)
+
+5. **Acesse a API pela internet:**
+
+   Como mostrado na imagem, copie a URL gerada pelo Ngrok (por exemplo, `https://4e1f-138-121-129-56.ngrok-free.app`) e cole no navegador. Agora, sua Evolution API está acessível pela internet!
+
+   lembrando, que sua url será diferente.
+
+--- 
+
+
+
+
+### 3ª Etapa: Configurando o Typebot na Evolution API
+
+1. **Acessar o Gerenciador:**
+
+   - Abra o navegador e acesse o gerenciador da API por meio da URL gerada pelo Ngrok:
+
+     ```
+     https://4e1f-138-121-129-56.ngrok-free.app/manager
+     ```
+
+   - Você verá um formulário de login semelhante ao da imagem abaixo:
+
+     ![alt text](./images/image-1.png)
+
+   - O `ApiKey` padrão do Gerenciador é **4D2883EC3249AD0271123319BB6E7ABD**. Caso queira alterar, edite o arquivo `docker-compose.yml`.
+
+     ![alt text](./images/image-2.png)
+
+2. **Conectar seu WhatsApp à Evolution API:**
+
+   - Primeiro, será necessário criar uma **instância** para conectar o WhatsApp.
+
+     ![alt text](./images/image-3.png)
+
+   - Escolha o tipo de integração: **Cloud API** ou **Baileys**.  
+     **Dica:** Utilize Baileys se você não estiver usando o WhatsApp Business.
+
+   - Após criar a instância, clique nela para acessar a configuração da Evolution API.
+
+     ![alt text](./images/image-4.png)
+
+    - Agora conecte seu whatsapp com o API, usando Scan QRCODE do aplicativo.
+
+    ![alt text](./images/image-7.png)
+
+3. **Configurar o Typebot:**
+
+   - Dentro da instância da Evolution API, vá até a seção de configuração do **Typebot**.
+
+   - No início do fluxo, existem três variáveis que precisam ser preenchidas:
+
+     ![alt text](./images/image-6.png)
+
+     - **apikey**: A chave de API que você está utilizando.
+     - **instance**: A instância que você criou anteriormente.
+     - **baseUrl**: A URL base da API (gerada pelo Ngrok).
+
+   - Agora, vamos configurar a API para receber corretamente o fluxo do Typebot. Para isso, o fluxo precisa estar **publicado**.
+
+     ![alt text](./images/image-8.png)
+
+   - Na configuração da API, utilize a URL:
+
+     ```
+     https://typebot.co
+     ```
+
+     E no campo **Nome do Fluxo**, insira o nome do fluxo correspondente, por exemplo: `"bia-1xxte5n"`.
+
+     ![alt text](./images/image-9.png)
+
+---
+
+
+Depois disso, envie uma mensagem para o número registrado na API e veja a mágica acontecer!
+
+### Resumo dos Requisitos Necessários:
+
+1. Tabelas: Todas as tabelas criadas e configuradas no fluxo, com os IDs das tabelas corretos.
+2. API Evolution: API Evolution em execução no Docker, com a porta 8080 exposta na internet através do Ngrok.
+3. Configuração de Parâmetros: Parâmetros adequadamente configurados no fluxo e na API Evolution para garantir que as requisições sejam processadas corretamente.
+
+
+
+
 
 
 
