@@ -198,7 +198,8 @@ Devido ao alto custo das requisições, não conseguimos utilizar a API do ChatG
 ### 2ª Etapa: Criando um Contêiner para Rodar a Evolution API
 
 1. **Navegue até o diretório do arquivo `docker-compose.yml`:**
-
+> Estarei usando a versão 1.8.2 do Evolution API
+  
    Use o seguinte comando para acessar a pasta do projeto:
 
    ```bash
