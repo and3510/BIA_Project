@@ -382,7 +382,7 @@ O projeto BIA - Bot Inteligente Acadêmico é uma ferramenta inovadora que visa 
 
 Apesar das dificuldades enfrentadas, como limitações no uso de bancos de dados institucionais e sobrecarga nos testes, a equipe conseguiu implementar soluções alternativas, expondo serviços locais à internet via Ngrok, garantindo assim a continuidade do projeto. O uso de plataformas como o Typebot e a Evolution API possibilitou a criação de menus dinâmicos e personalizáveis, proporcionando uma experiência de usuário aprimorada.
 
-No fim, não conseguimos ter o aval o faculdade para implementar, devido o corte de funcionalidades, mas vamos deixar público o prototipo para quem quiser testar o software na sua maquina.
+No final, não obtivemos a aprovação da faculdade para implementar o projeto devido ao corte de funcionalidades, mas disponibilizaremos o protótipo publicamente para que quem quiser possa testar o software em sua máquina.
 
 A conclusão deste projeto destaca a importância da integração entre tecnologias e a criatividade da equipe para superar os desafios, com um protótipo funcional, mesmo que com algumas funcionalidades ainda em desenvolvimento ou ajustáveis conforme as necessidades.
 
