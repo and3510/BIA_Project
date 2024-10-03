@@ -6,6 +6,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+![Static Badge](https://img.shields.io/badge/%20GOOGLE%20GEMINI-gray?style=for-the-badge&logo=Googlegemini&logoColor=blue)
 ![Static Badge](https://img.shields.io/badge/TYPEBOT-blue?style=for-the-badge&logo=probot&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/NOCODB-purple?style=for-the-badge&logo=amazondynamodb&logoColor=white&logoSize=20px)
 ![Static Badge](https://img.shields.io/badge/EVOLUTION%20API-greenlight?style=for-the-badge&logo=whatsapp&logoColor=white)
@@ -84,6 +85,7 @@ Além disso, gastamos um tempo tentando enviar uma requisição HTTP da platafor
 
 Durante o projeto, fomos informados de que não poderíamos integrar o chatbot com o banco de dados da faculdade por questões de segurança. Isso reduziu as chances de o sistema ser adotado pela instituição, porém, poderíamos ajustar o projeto removendo as funcionalidades que dependiam de acesso ao banco de dados da faculdade, como **Ver Notas**, **Faltas** e **Biblioteca**.
 
+Devido ao alto custo das requisições, não conseguimos utilizar a API do ChatGPT, então optamos por usar a API Gemini.
 
 
 ## Resultados
@@ -378,7 +380,11 @@ O projeto BIA - Bot Inteligente Acadêmico é uma ferramenta inovadora que visa 
 
 Apesar das dificuldades enfrentadas, como limitações no uso de bancos de dados institucionais e sobrecarga nos testes, a equipe conseguiu implementar soluções alternativas, expondo serviços locais à internet via Ngrok, garantindo assim a continuidade do projeto. O uso de plataformas como o Typebot e a Evolution API possibilitou a criação de menus dinâmicos e personalizáveis, proporcionando uma experiência de usuário aprimorada.
 
-A conclusão deste projeto destaca a importância da integração entre tecnologias e a criatividade da equipe para superar os desafios, com um protótipo funcional e pronto para uso acadêmico, mesmo que com algumas funcionalidades ainda em desenvolvimento ou ajustáveis conforme as necessidades da instituição.
+No fim, não conseguimos ter o aval o faculdade para implementar, devido o corte de funcionalidades, mas vamos deixar público o prototipo para quem quiser testar o software na sua maquina.
+
+A conclusão deste projeto destaca a importância da integração entre tecnologias e a criatividade da equipe para superar os desafios, com um protótipo funcional, mesmo que com algumas funcionalidades ainda em desenvolvimento ou ajustáveis conforme as necessidades.
+
+
 
 
 
