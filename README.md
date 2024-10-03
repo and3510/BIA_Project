@@ -169,7 +169,13 @@ As tabelas estao no arquivo.zip `tables.zip`. É so baixar e dar upload para cad
 
 E use meu template.json para importar para o Typebot
 
-![alt text](./images/image-5.png)
+
+<div align="center">
+
+<img src="./images/image-5.png" alt="Descrição da Imagem" width="550" height="300">
+
+
+</div>
 
 
 ### 2ª Etapa: Criando um Contêiner para Rodar a Evolution API
@@ -210,7 +216,13 @@ E use meu template.json para importar para o Typebot
 
    Isso irá gerar uma URL pública que redireciona as requisições para sua API local. Caso nunca tenha usado o Ngrok, consulte a [documentação oficial](https://ngrok.com/docs/) para mais informações.
 
-   ![alt text](./images/image.png)
+
+   <div align="center">
+
+    <img src="./images/image.png" alt="Descrição da Imagem" width="700" height="300">
+
+
+  </div>
 
 5. **Acesse a API pela internet:**
 
@@ -235,28 +247,57 @@ E use meu template.json para importar para o Typebot
 
    - Você verá um formulário de login semelhante ao da imagem abaixo:
 
-     ![alt text](./images/image-1.png)
+    <div align="center">
+
+    <img src="./images/image-1.png" alt="Descrição da Imagem" width="700" height="300">
+
+
+    </div>
 
    - O `ApiKey` padrão do Gerenciador é **4D2883EC3249AD0271123319BB6E7ABD**. Caso queira alterar, edite o arquivo `docker-compose.yml`.
 
-     ![alt text](./images/image-2.png)
+    <div align="center">
+
+    <img src="./images/image-2.png" alt="Descrição da Imagem" width="500" height="200">
+
+
+    </div>
+  
 
 2. **Conectar seu WhatsApp à Evolution API:**
 
    - Primeiro, será necessário criar uma **instância** para conectar o WhatsApp.
 
-     ![alt text](./images/image-3.png)
+    <div align="center">
+
+    <img src="./images/image-3.png" alt="Descrição da Imagem" width="700" height="300">
+
+
+    </div>
 
    - Escolha o tipo de integração: **Cloud API** ou **Baileys**.  
      **Dica:** Utilize Baileys se você não estiver usando o WhatsApp Business.
 
    - Após criar a instância, clique nela para acessar a configuração da Evolution API.
 
-     ![alt text](./images/image-4.png)
+
+
+    <div align="center">
+
+    <img src="./images/image-4.png" alt="Descrição da Imagem" width="700" height="300">
+
+
+    </div>
 
     - Agora conecte seu whatsapp com o API, usando Scan QRCODE do aplicativo.
 
-    ![alt text](./images/image-7.png)
+
+    <div align="center">
+
+    <img src="./images/image-7.png" alt="Descrição da Imagem" width="700" height="300">
+
+
+    </div>
 
 3. **Configurar o Typebot:**
 
@@ -264,7 +305,12 @@ E use meu template.json para importar para o Typebot
 
    - No início do fluxo, existem três variáveis que precisam ser preenchidas:
 
-     ![alt text](./images/image-6.png)
+    <div align="center">
+
+    <img src="./images/image-6.png" alt="Descrição da Imagem" width="700" height="300">
+
+
+    </div>
 
      - **apikey**: A chave de API que você está utilizando.
      - **instance**: A instância que você criou anteriormente.
@@ -272,7 +318,12 @@ E use meu template.json para importar para o Typebot
 
    - Agora, vamos configurar a API para receber corretamente o fluxo do Typebot. Para isso, o fluxo precisa estar **publicado**.
 
-     ![alt text](./images/image-8.png)
+    <div align="center">
+
+    <img src="./images/image-8.png" alt="Descrição da Imagem" width="700" height="300">
+
+
+    </div>
 
    - Na configuração da API, utilize a URL:
 
@@ -282,7 +333,13 @@ E use meu template.json para importar para o Typebot
 
      E no campo **Nome do Fluxo**, insira o nome do fluxo correspondente, por exemplo: `"bia-1xxte5n"`.
 
-     ![alt text](./images/image-9.png)
+    
+    <div align="center">
+
+    <img src="./images/image-9.png" alt="Descrição da Imagem" width="700" height="300">
+
+
+    </div>
 
 ---
 
