@@ -202,7 +202,7 @@ Devido ao alto custo das requisições, não conseguimos utilizar a API do ChatG
    Use o seguinte comando para acessar a pasta do projeto:
 
    ```bash
-   cd BIA
+   cd BIA_Project
    ```
 
 2. **Execute o stack com o Docker Compose:**
