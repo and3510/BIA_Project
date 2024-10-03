@@ -156,6 +156,8 @@ Devido ao alto custo das requisições, não conseguimos utilizar a API do ChatG
 
 ## Como_Usar
 
+> Antes de tentar usar, é importante ja saber como usar as plataformas [**Typebot**](https://docs.typebot.io/get-started/introduction) e [**NocoDb**](https://docs.nocodb.com/)
+
 ### 1° Etapa (Criação de contas e configuração)
 
 1. **Criar Conta no Typebot:**
