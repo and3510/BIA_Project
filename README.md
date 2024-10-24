@@ -218,7 +218,8 @@ Devido ao alto custo das requisições, não conseguimos utilizar a API do ChatG
 
    ```
 
-
+   Para iniciar os serviços definidos no Docker Compose, utilize o comando:
+   
    ```bash
    docker-compose up
    ```
