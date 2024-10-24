@@ -9,10 +9,10 @@ services:
       - evolution_instances:/evolution/instances
       - evolution_store:/evolution/store
     environment:
-      CONFIG_SESSION_PHONE_CLIENT: evolution_api
-      AUTHENTICATION_TYPE: apikey
-      AUTHENTICATION_API_KEY: 4D2883EC3249AD0271123319BB6E7ABD
-      SERVER_URL: https://localhost:8080
+      - CONFIG_SESSION_PHONE_CLIENT: evolution_api
+      - AUTHENTICATION_TYPE: apikey
+      - AUTHENTICATION_API_KEY=${AUTHENTICATION_API_KEY}
+      - SERVER_URL: https://localhost:8080
     deploy:
       mode: replicated
       replicas: 1

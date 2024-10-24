@@ -206,9 +206,18 @@ Devido ao alto custo das requisições, não conseguimos utilizar a API do ChatG
    cd BIA_Project
    ```
 
-2. **Execute o stack com o Docker Compose:**
+2. **Execute o stack com o Docker Compose no `BIA_Project/docker/docker-compose.yml`:**
+   
+   Antes de fazer um `docker-compose up`, crie um arquivo **.env** na mesma pasta do **docker-compose.yml**
 
-   Para iniciar os serviços definidos no Docker Compose, utilize o comando:
+   e adicione:
+
+
+   ```
+   AUTHENTICATION_API_KEY= senha da chave api evolution
+
+   ```
+
 
    ```bash
    docker-compose up
